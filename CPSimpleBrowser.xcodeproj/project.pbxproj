@@ -17,6 +17,7 @@
 		4E5EA6261349199E007B3268 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E5EA6241349199E007B3268 /* InfoPlist.strings */; };
 		4E5EA6291349199E007B3268 /* CPSimpleBrowserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4E5EA6281349199E007B3268 /* CPSimpleBrowserTests.h */; };
 		4E5EA62B1349199E007B3268 /* CPSimpleBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5EA62A1349199E007B3268 /* CPSimpleBrowserTests.m */; };
+		4E9B22A6134925D6001EA169 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9B22A413492573001EA169 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +36,21 @@
 		4E5EA6031349199D007B3268 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4E5EA6041349199D007B3268 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4E5EA6051349199D007B3268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4E5EA6081349199D007B3268 /* CPSimpleBrowser-Info.plist */ = {isa = PBXFileReference; path = "CPSimpleBrowser-Info.plist"; sourceTree = "<group>"; };
+		4E5EA6081349199D007B3268 /* CPSimpleBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPSimpleBrowser-Info.plist"; sourceTree = "<group>"; };
 		4E5EA60A1349199D007B3268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E5EA60C1349199D007B3268 /* CPSimpleBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "CPSimpleBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		4E5EA60C1349199D007B3268 /* CPSimpleBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPSimpleBrowser-Prefix.pch"; sourceTree = "<group>"; };
 		4E5EA60D1349199D007B3268 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E5EA6101349199D007B3268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4E5EA6121349199D007B3268 /* CPSimpleBrowserAppDelegate.h */ = {isa = PBXFileReference; path = CPSimpleBrowserAppDelegate.h; sourceTree = "<group>"; };
+		4E5EA6121349199D007B3268 /* CPSimpleBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPSimpleBrowserAppDelegate.h; sourceTree = "<group>"; };
 		4E5EA6131349199D007B3268 /* CPSimpleBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPSimpleBrowserAppDelegate.m; sourceTree = "<group>"; };
 		4E5EA6161349199E007B3268 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4E5EA61D1349199E007B3268 /* CPSimpleBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPSimpleBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E5EA6231349199E007B3268 /* CPSimpleBrowserTests-Info.plist */ = {isa = PBXFileReference; path = "CPSimpleBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		4E5EA6231349199E007B3268 /* CPSimpleBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CPSimpleBrowserTests-Info.plist"; sourceTree = "<group>"; };
 		4E5EA6251349199E007B3268 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4E5EA6271349199E007B3268 /* CPSimpleBrowserTests-Prefix.pch */ = {isa = PBXFileReference; path = "CPSimpleBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
+		4E5EA6271349199E007B3268 /* CPSimpleBrowserTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPSimpleBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
 		4E5EA6281349199E007B3268 /* CPSimpleBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPSimpleBrowserTests.h; sourceTree = "<group>"; };
 		4E5EA62A1349199E007B3268 /* CPSimpleBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPSimpleBrowserTests.m; sourceTree = "<group>"; };
+		4E9B22A413492573001EA169 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E5EA6011349199D007B3268 /* Cocoa.framework in Frameworks */,
+				4E9B22A6134925D6001EA169 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +96,7 @@
 		4E5EA5FF1349199D007B3268 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E9B22A413492573001EA169 /* WebKit.framework */,
 				4E5EA6001349199D007B3268 /* Cocoa.framework */,
 				4E5EA6021349199D007B3268 /* Other Frameworks */,
 			);
@@ -441,6 +445,7 @@
 				4E5EA6301349199E007B3268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E5EA6311349199E007B3268 /* Build configuration list for PBXNativeTarget "CPSimpleBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +454,7 @@
 				4E5EA6331349199E007B3268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
